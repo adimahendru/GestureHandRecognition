@@ -4,10 +4,10 @@ This project was done by Aditya Mahendru for CSE 455 (Computer Vision) at UW
 ## About 
 For this project I created a opencv and python program on hand gesture recognition. It detects numbers one through five but can easily expand to other hand gestures in sign language. While we have advancments in voice detection and face detection, hand gestures still face challenges with foreground vs background, movements, and diversty in gestures. To tackle some of these problems, I focused on segmenting the hand region, thresholding, and contours.
 
-After creating this program, I decided to implent some machine learning. I collected images from kaggle, labeled them using the image package and built a sign language detector using Transfer Learning and Tensorflow Object Detection api to train a deep learning model. This gives us the ability to detect hand gestures in real time.  
+After creating this program, I decided to implement some machine learning. I collected images from kaggle, labeled them using the image package and built a sign language detector using Transfer Learning and Tensorflow Object Detection api to train a deep learning model. This gives us the ability to detect hand gestures in real time.  
 
 ## Approach
-
+When creating the gesture_recognition.py program, I captured video from the webcamera, picked a frame and flipped the image. I converted to grayscale and then to binary to find the region of interest. A grayscale image can help with contouring the image unlike rgb. I then use gaussian blur to reduce noise components in the image. This is followed by thresholding for image segmentation to create binary images. The thresholding acts as a low pass filter. Then I find countour with max area and create a bounding rectangle around the countour. I find the countour defects which is the region between the fingers. Using the cosine law I can find the defects. Using if statements I add text to suggest what hand gesture is being displayed based on the number of defects it counts. 
 
 ## Datasets
 I used this [dataset](https://www.kaggle.com/muhammadkhalid/sign-language-for-numbers). It contained hand gestures from zero to nine with 1500 images in each folder. I modfied my dataset to using only the folders with numbers one through five. Also when I added these images to my train and test folders, I decreased the amount of images used signficantly instead of incorporating every folder of 1500 pictures.

@@ -21,5 +21,5 @@ I trained the model for 10,000 steps. At each 100 step I was given a loss value.
 I do plan to work on this again. I want to try to improve the accuracy and fix any mistakes that may have resulted in the model's poor accuracy. Later I may attempt in creating actions on my laptop based on hand gestures such controlling the volume.
 
 ## References
-Hand Gesture Recognition: https://gogul.dev/software/hand-gesture-recognition-p2
-Real Time Sign Language Detection: https://www.youtube.com/watch?v=QkO_3absfdw&list=PLwyHr2n-aWLAiUSg9SK9sZhNCYuOjGejN&index=7
+* Hand Gesture Recognition: https://gogul.dev/software/hand-gesture-recognition-p2
+* Real Time Sign Language Detection: https://www.youtube.com/watch?v=QkO_3absfdw&list=PLwyHr2n-aWLAiUSg9SK9sZhNCYuOjGejN&index=7

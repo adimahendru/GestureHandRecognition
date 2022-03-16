@@ -1,11 +1,19 @@
 # GestureHandRecognition
+This project was done by Aditya Mahendru for CSE 455 (Computer Vision) at UW
 
-# About 
+## About 
+For this project I created a opencv and python program on hand gesture recognition. It detects numbers one through five but can easily expand to other hand gestures in sign language. While we have advancments in voice detection and face detection, hand gestures still face challenges with foreground vs background, movements, and diversty in gestures. To tackle some of these problems, I focused on segmenting the hand region, thresholding, and contours.
 
-# My Approach
+After creating this program, I decided to implent some machine learning. I collected images from kaggle, labeled them using the image package and built a sign language detector using Transfer Learning and Tensorflow Object Detection api to train a deep learning model. This gives us the ability to detect hand gestures in real time.  
 
-# # Datasets
+## Approach
 
-# Results
 
-# Discussion
+## Datasets
+I used this [dataset](https://www.kaggle.com/muhammadkhalid/sign-language-for-numbers). It contained hand gestures from zero to nine with 1500 images in each folder. I modfied my dataset to using only the folders with numbers one through five. Also when I added these images to my train and test folders, I decreased the amount of images used signficantly instead of incorporating every folder of 1500 pictures.
+
+## Results & Discussion
+I trained the model for 10,000 steps. At each 100 step I was given a loss value. By the 10,000 step the loss value result was 0.02. When running the program for detecting in real time, there were problems where the hand gestures were not very accurate and often confused certain hand gestures for a different number. One is that the gestures in the data were not as distinct as they should have been; the images may not have been clear. Another reason is the quantity of images was not sufficient. I most likely needed more data to have a better accuracy.
+
+## Future
+I do plan to work on this again. I want to try to improve the accuracy and fix any mistakes that may have resulted in the model's poor accuracy.

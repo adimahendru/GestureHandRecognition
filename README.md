@@ -12,7 +12,7 @@ When creating the gesture_recognition.py program, I captured video from the webc
 For detection in real time I used a template where I was able to setup Tensorflow Object Detection pipeline configuration and use transfer learning to train a deep learning model. This template can be found in the Tutorial.ipynb file.
 
 ## Datasets
-I used this [dataset](https://www.kaggle.com/muhammadkhalid/sign-language-for-numbers). It contained hand gestures from zero to nine with 1500 images in each folder. I modified my dataset to using only the folders with numbers one through five. Also, when I added these images to my train and test folders, I decreased the number of images used signficantly instead of incorporating every folder of 1500 pictures.
+I used this [dataset](https://www.kaggle.com/muhammadkhalid/sign-language-for-numbers). It contained hand gestures from zero to nine with 1500 images in each folder. I modified my dataset to using only the folders with numbers one through five. Also, when I added these images to my train and test folders, I decreased the number of images used significantly instead of incorporating every folder of 1500 pictures.
 
 ## Results & Discussion
 I trained the model for 10,000 steps. At each 100 step I was given a loss value. By the 10,000 step the loss value result was 0.02. When running the program for detecting in real time, there were problems where the hand gestures were not very accurate and often confused certain hand gestures for a different number. One is that the gestures in the data were not as distinct as they should have been; the images may not have been clear. Another reason is the quantity of images was not sufficient. I most likely needed more data to have a better accuracy.

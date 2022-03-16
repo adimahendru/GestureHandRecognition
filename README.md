@@ -2,7 +2,7 @@
 This project was done by Aditya Mahendru for CSE 455 (Computer Vision) at UW
 
 ## About 
-For this project I created a opencv and python program on hand gesture recognition. It detects numbers one through five but can easily expand to other hand gestures in sign language. While we have advancments in voice detection and face detection, hand gestures still face challenges with foreground vs background, movements, and diversty in gestures. To tackle some of these problems, I focused on segmenting the hand region, thresholding, and contours.
+For this project I created a opencv and python program on hand gesture recognition. It detects numbers one through five but can easily expand to other hand gestures in sign language. While we have advancments in voice detection and face detection, hand gestures still face challenges with foreground vs background, movements, and diversity in gestures. To tackle some of these problems, I focused on segmenting the hand region, thresholding, and contours.
 
 After creating this program, I decided to implement some machine learning. I collected images from kaggle, labeled them using the image package and built a sign language detector using Transfer Learning and Tensorflow Object Detection api to train a deep learning model. This gives us the ability to detect hand gestures in real time.  
 

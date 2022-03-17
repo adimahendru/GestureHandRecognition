@@ -1,8 +1,8 @@
 # GestureHandRecognition
 This project was done by Aditya Mahendru for CSE 455 (Computer Vision) at UW
 
-[Code](https://github.com/adimahendru/GestureHandRecognition)
-[Video](https://github.com/adimahendru/GestureHandRecognition/blob/main/video1281761444.mp4)
+1. [Code](https://github.com/adimahendru/GestureHandRecognition)
+2. [Video](https://github.com/adimahendru/GestureHandRecognition/blob/main/video1281761444.mp4)
 
 ## About 
 For this project I created a opencv and python program on hand gesture recognition. It detects numbers one through five but can easily expand to other hand gestures in sign language. While we have advancments in voice detection and face detection, hand gestures still face challenges with foreground vs background, movements, and diversity in gestures. To tackle some of these problems, I focused on segmenting the hand region, thresholding, and contours.

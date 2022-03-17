@@ -1,5 +1,5 @@
 # GestureHandRecognition
-This project was done by *Aditya Mahendru* for CSE 455 (Computer Vision) at UW
+This project was done by Aditya Mahendru for UW CSE 455 (Computer Vision)
 
 1. [Code](https://github.com/adimahendru/GestureHandRecognition)
 2. [Video](https://github.com/adimahendru/GestureHandRecognition/blob/main/video1281761444.mp4)

@@ -1,4 +1,4 @@
-# GestureHandRecognition
+# Hand Gesture Recognition
 This project was done by Aditya Mahendru for UW CSE 455 (Computer Vision)
 
 1. [Code](https://github.com/adimahendru/GestureHandRecognition)

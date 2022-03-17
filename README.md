@@ -18,7 +18,7 @@ For detection in real time I used a template where I was able to setup Tensorflo
 I used this [dataset](https://www.kaggle.com/muhammadkhalid/sign-language-for-numbers). It contained hand gestures from zero to nine with 1500 images in each folder. I modified my dataset to using only the folders with numbers one through five. Also, when I added these images to my train and test folders, I decreased the number of images used significantly instead of incorporating every folder of 1500 pictures.
 
 ## Demo
-https://user-images.githubusercontent.com/80295128/158712779-814e4585-a4ed-4ea2-9558-ccc8c50757d7.mp4
+https://user-images.githubusercontent.com/80295128/158713160-447d2cd2-3b9e-4740-8939-15f74c821635.mp4
 
 ## Results & Discussion
 I trained the model for 10,000 steps. At each 100 step I was given a loss value. By the 10,000 step the loss value result was 0.02. When running the program for detecting in real time, there were problems where the hand gestures were not very accurate and often confused certain hand gestures for a different number. One is that the gestures in the data were not as distinct as they should have been; the images may not have been clear. Another reason is the quantity of images was not sufficient. I most likely needed more data to have a better accuracy.
